@@ -1,21 +1,32 @@
 body{
 color: #fff;
+background: url();
+background: url(http://fluper.ru/ffh/21/london_bi_ben_london_big_ben_vecher_reka_zdaniya_vid_sverhu_chb_1920x1200.jpg) no-repeat;
+background-size: cover;
 }
  .page-header {
-        background-color: #501111;
-        margin-top: 0;
-        padding: 20px 20px 20px 40px;
+    background-color: #2F4C54;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+    overflow: hidden;
     }
 
-    .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-        color: ##D9924F;
-        font-size: 36pt;
-        text-decoration: none;
-    }
-
-    .content {
-        margin-left: 40px;
-    }
+.page-header h1, .page-header h1 a{
+    color: #ccc;
+    font-size: 43pt;
+    text-decoration: none;
+    padding: 20px 30px 20px 70px;
+    border-radius: 5px;
+}
+.page-header h1 a:hover, .page-header h1 a:active{
+    color: #141B1F;
+}
+.page-header h1{
+    float: right;
+}
+.content {
+    margin: 0 auto;
+}
 
     h1, h2, h3, h4 {
         font-family: 'Lobster', cursive;
@@ -40,10 +51,16 @@ color: #fff;
         font-size: 26pt;
         margin-right: 20px;
     }
-
-    .post {
-        margin-bottom: 70px;
-    }
+.post{
+margin-bottom: 70px;
+}
+#content-path{
+    margin: 0 auto;
+    float: none;
+    background: rgba(69,79,94, 0.6);
+    padding: 30px;
+    margin-top: 30px;
+}
 
     .post h1 a, .post h1 a:visited {
         color: #fff;
