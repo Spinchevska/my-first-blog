@@ -1,22 +1,26 @@
 body{
-color: #fff;
-background: url();
-background: url(http://fluper.ru/ffh/21/london_bi_ben_london_big_ben_vecher_reka_zdaniya_vid_sverhu_chb_1920x1200.jpg) no-repeat;
-background-size: cover;
+    color: #fff;
+    background: url(http://fluper.ru/ffh/21/london_bi_ben_london_big_ben_vecher_reka_zdaniya_vid_sverhu_chb_1920x1200.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
- .page-header {
+.page-header {
     background-color: #2F4C54;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
     overflow: hidden;
-    }
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
 
 .page-header h1, .page-header h1 a{
     color: #ccc;
     font-size: 43pt;
     text-decoration: none;
-    padding: 20px 30px 20px 70px;
+    padding: 0 30px 0px 70px;
     border-radius: 5px;
+    margin: 0;
 }
 .page-header h1 a:hover, .page-header h1 a:active{
     color: #141B1F;
@@ -26,33 +30,34 @@ background-size: cover;
 }
 .content {
     margin: 0 auto;
+    padding-top: 123px;
 }
 
-    h1, h2, h3, h4 {
-        font-family: 'Lobster', cursive;
-    }
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+}
 
-    .date {
-        float: right;
-        color: #fff;
-    }
+.date {
+    float: right;
+    color: #fff;
+}
 
-    .save {
-        float: right;
-    }
+.save {
+    float: right;
+}
 
-    .post-form textarea, .post-form input {
-        width: 100%;
-    }
+.post-form textarea, .post-form input {
+    width: 100%;
+}
 
-    .top-menu, .top-menu:hover, .top-menu:visited {
-        color: #ffffff;
-        float: right;
-        font-size: 26pt;
-        margin-right: 20px;
-    }
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
 .post{
-margin-bottom: 70px;
+    margin-bottom: 70px;
 }
 #content-path{
     margin: 0 auto;
@@ -62,6 +67,6 @@ margin-bottom: 70px;
     margin-top: 30px;
 }
 
-    .post h1 a, .post h1 a:visited {
-        color: #fff;
-    }
+.post h1 a, .post h1 a:visited {
+    color: #fff;
+}
